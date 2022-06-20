@@ -1,7 +1,7 @@
 import React, { createContext } from "react";
 import "./style.css";
 import CompA from './CompA'
-// here we are making three components compA, compB or compC and accessing data from compC through compA and CompB by using prop drilling 
+// here we are making three components compA, compB or compC and passing data to compC through compA and CompB by using prop drilling 
 // if we want to pass data from parent to compC so in that case we are passing data to compA and CompB which is not useful so here we are using ContextAPI for passing data to CompC directly from parent compA
 
 // React hooks provide a concept call context
